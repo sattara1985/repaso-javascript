@@ -86,4 +86,20 @@
 let numero1 = prompt("Ingrese el primer numero");
 let numero2 = prompt("Ingrese el segundo numero");
 let numero3 = prompt("Ingrese el tercer numero");
+if(numero1==numero2 && numero2==numero3 && numero3==numero1)
+{
+    if(numero1==numero2 || numero2==numero3 || numero3==numero1){
+        alert(`ha ingresdado dos numeros iguales`);
+    }
 
+
+    if(numero1>numero2 && numero1>numero3){
+        alert(`${numero1} Es mayor que ${numero2} y ${numero3}`);
+    }
+    if(numero2>numero1 && numero2>numero3){
+        alert(`${numero2} Es mayor que ${numero1} y ${numero3}`);
+    }
+    if(numero3>numero2 && numero3>numero1){
+        alert(`${numero3} Es mayor que ${numero2} y ${numero1}`);
+    }
+}
